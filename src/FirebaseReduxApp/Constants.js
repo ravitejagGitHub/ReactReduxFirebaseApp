@@ -1,0 +1,13 @@
+const Constants = {
+    ACTION : {
+        LOGIN_SUCCESS : 'LOGIN_SUCCESS',
+        LOGIN_ERROR: 'LOGIN_ERRRR',
+        LOGOUT_SUCCESS : 'LOGOUT_SUCCESS',
+        LOGOUT_ERROR : 'LOGOUT_ERROR',
+        CREATE_PROJECT: 'CREATE_PROJECT',
+        CREATE_PROJECT_ERROR: 'CREATE_PROJECT_ERROR',
+        SIGNUP_SUCCESS: 'SIGNUP_SUCCESS',
+        SIGNUP_ERROR: 'SIGNUP_ERROR'
+    }
+};
+export default Constants;

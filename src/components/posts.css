@@ -1,0 +1,84 @@
+.posts {
+    /* border: 2px black solid; */
+    float: left;
+    padding: 10px;
+    width: 60%;
+    text-align: left;
+}
+
+.posts .post:not(:last-child) {
+    border-bottom: 1px sienna solid;
+}
+
+.posts .post {
+    position: relative;
+
+    background-color: aquamarine;
+    -webkit-box-shadow: 8px 10px 5px -3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 8px 10px 5px -3px rgba(0,0,0,0.25);
+    box-shadow: 8px 10px 5px -3px rgba(0,0,0,0.25);
+    margin: 5px;
+    padding: 2px 150px 2px 20px;
+    overflow: hidden;
+}
+
+.posts .post a {
+    color: brown;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+
+.posts .post img {
+    position: absolute;
+    right:-10px;
+    top:-10px;
+    height: 150px;
+    width: 150px;
+    opacity: 0.5;
+}
+
+.posts .post button.btn-more a{
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+.posts .post .message {
+    font-style: italic;
+    margin: 3px;
+}
+.btn-more {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-more:hover {
+    color: blue;
+}
+
+.post-details {
+    width:100%;
+    padding: 10px;
+}
+
+.post-details .title {
+    color: blue;
+    font-size: 25px;
+}
+
+.post-details .body{
+    font-size: 15px;
+}
+
+.btn-delete-post {
+    border: 0px;
+    background: transparent;
+    cursor: pointer;
+    color: blue;
+}
+
+.btn-delete-post:hover {
+    color: red;
+}
